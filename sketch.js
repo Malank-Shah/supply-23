@@ -62,7 +62,22 @@ function draw() {
   packageSprite.y= packageBody.position.y 
   packageSprite.x = helicopterSprite.x
   
+	  textSize(26);
+  fill("white");
+  textFont("Segoe Script")
+  text ("drop the package for needy people on the ground",100,300)
+
+  textSize(26);
+  fill("white");
+  textFont("Segoe Script")
+  text ("Drop the package  in the Red area only ",100,340)
+
+  textSize(26);
+  fill("white");
+  textFont("Segoe Script")
+  text ("otherwise as the commander i will push you in area zombies",100,380)
  
+	
 
   box1.display();
   box2.display();
